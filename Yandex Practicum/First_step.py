@@ -1,7 +1,9 @@
-print(2 + 5 * 4 / 2 - 8 + 3 * (3 + 2)) # - пример операций
+# - пример простых вычислительных операций
+print(2 + 5 * 4 / 2 - 8 + 3 * (3 + 2))
+
 print(2 ** 2) # - возведение в степень
 
-
+# - ПЕРЕМЕННЫЕ И ОПЕРАЦИИ С НИМИ
 # число носителей английского
 english_native = 378.2
 # число говорящих на английском
@@ -15,7 +17,8 @@ russian_speakers = 264.3
 english_second = english_speakers - english_native
 russian_second = russian_speakers - russian_native
 
-print(english_second / russian_second)
+#конкатенация для вывода результата с описанием
+print("english_second / russian_second = " + str(english_second / russian_second))
 
 
 english = 378.2
