@@ -8,7 +8,7 @@ print('Доли эмодзи:')
 for element in emojixpress:
     part = element / emojixpress_total
 
-    print('{:.1%}'.format(part))  # вставьте переменную part вместо многоточия
+    print('{:.2%}'.format(part))  # вставьте переменную part вместо многоточия
 
 print()
 print('Всего эмодзи: 1.72 млрд')
